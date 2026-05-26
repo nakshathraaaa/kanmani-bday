@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 🎀</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- MUSIC -->
+
+    <audio autoplay loop id="bgMusic">
+        <source src="music/song.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+
+        <!-- LEFT GALLERY -->
+
+        <div class="sidebar">
+
+            <div class="gallery-track">
+
+                <img src="images/gallery1.jpg" class="gallery-img">
+                <img src="images/gallery2.jpg" class="gallery-img">
+                <img src="images/gallery3.jpg" class="gallery-img">
+                <img src="images/gallery4.jpg" class="gallery-img">
+
+                <img src="images/gallery1.jpg" class="gallery-img">
+                <img src="images/gallery2.jpg" class="gallery-img">
+                <img src="images/gallery3.jpg" class="gallery-img">
+                <img src="images/gallery4.jpg" class="gallery-img">
+
+            </div>
+
+        </div>
+
+        <!-- MAIN CONTENT -->
+
+        <div class="main-content">
+
+            <div class="button-container">
+
+                <button class="scrapbook-btn" onclick="openLetter()">
+                    💌 Letter
+                </button>
+
+                <button class="scrapbook-btn" onclick="openQuiz()">
+                    🎮 Quiz
+                </button>
+
+                <button class="scrapbook-btn" onclick="toggleMusic()">
+                    🎵 Music
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- QUIZ PANEL -->
+
+        <div class="quiz-panel" id="quizPanel">
+
+            <div class="quiz-box">
+
+                <img src="images/love-question.jpg" class="quiz-image">
+
+                <h2 class="quiz-question">
+                    hmm so do you love me kanmani? 💖
+                </h2>
+
+                <div class="quiz-options">
+
+                    <button class="option-btn" onclick="startQuiz()">
+                        YES 💕
+                    </button>
+
+                    <button class="option-btn" onclick="wrongAnswer()">
+                        NO 🙄
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LETTER POPUP -->
+
+    <div class="letter-popup" id="letterPopup">
+
+        <div class="letter-content">
+
+            <button class="close-btn" onclick="closeLetter()">
+                ✖
+            </button>
+
+            <h1>To My Jaan 🎀</h1>
+
+            <p>
+
+                Dear jaan,
+
+                <br><br>
+
+                You are one of the most pachayaya pacha colour ishtamulla pacha pidippikan kazhiv ulla manushajeevi i have ever seen 😭
+
+                <br><br>
+
+                Ok Kanmani????
+
+                <br><br>
+
+                And I LOVE YOOOU mehaBOOB &lt;3
+
+                <br><br>
+
+                I hope you will always have that smile which makes me smile too!
+
+                <br><br>
+
+                You gave me warmth like a kozhi give to its mutta &lt;3
+
+                <br><br>
+
+                And i hope I can always be your mutta and you to be my kozhi mwaaah💕
+
+                <br><br>
+
+                With love,
+                <br>
+
+                Yours nachu :)
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
